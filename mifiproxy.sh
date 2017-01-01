@@ -6,12 +6,12 @@
 # @EMail  : suetena_coder@outlook.com 
 
 
-mifiIPAdress='192.168.0.1'
-interface='wlp2s0'
-interface_2='enp1s0'
-routeMatric=30
-serverUser='sadmin'
-listainPort=1081
+mifiIPAdress='192.168.0.1'        #MiFi  Address
+interface='wlp2s0'                #WIRELESS Interface Connected to MiFi
+interface_2='enp1s0'              #ETHERNET Inferface Connected to LAN
+routeMatric=30                    #PATH MATRIC
+serverUser='proxyuser'               #USER_NAME to use for Connecting
+listainPort=1081                  #PORT_LISTAINING Port to Listain on for Proxyed Connections
 ethnetIP=$(ip addr | grep inet | grep enp1s0 | awk -F" " '{print $2}' | sed -e 's/\/.*$//')
 
 echo ' .. Initializing Network Values '
