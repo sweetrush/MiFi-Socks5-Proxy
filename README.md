@@ -82,4 +82,4 @@ PATH_OF_MIFI_PROXY> sh mifiproxy.sh
 ```
 
 #Final Words
-Hope you enjoy this small script very useful at times. Drop me a message or email **suetena_coder<at>outlook.com** let me know what something to change or suggest to linkup and improve this small server.
+Hope you enjoy this small script very useful at times. Drop me a message or email **suetena_coder[at]outlook.com** let me know what something to change or suggest to linkup and improve this small server.
