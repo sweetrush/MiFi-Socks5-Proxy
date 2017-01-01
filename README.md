@@ -15,7 +15,8 @@ A proxy server to use with your MiFi Device with a Linux Computer as the Proxy s
                                \__[Other Internet Devices]
                                
 ```
-##<Related Image>
+## Related Image
+![Mifi LAN Network](https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/14600968_1792952034298170_7987836203021952011_n.jpg?oh=8fae45e2ad535a5fb79c07d696ef9401&oe=58E42A78)
 
 
 # INSTALLATION 
