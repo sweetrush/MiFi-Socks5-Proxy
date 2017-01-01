@@ -25,18 +25,19 @@ Before you can start using the server there are a few things that you need to co
 Check that your wireless interface is connected to the Mifi Device and its getting an IP address from it. 
 you can check this with the following command below.
 
-'
+```
 > ifconfig 
-'
+```
 from this command you can find out what your wireless card is getting as and IP if you have connected your Mifi Device to the Machine 
 then you sould be getting the IP from it.Once you have that then you can configure the wireless interface as the variable in the script.
 
 **variable**
-'mifiIPAdress='192.168.0.1'        #MiFi  Address
+```
+mifiIPAdress='192.168.0.1'        #MiFi  Address
 interface='wlp2s0'                #WIRELESS Interface Connected to MiFi
 interface_2='enp1s0'              #ETHERNET Inferface Connected to LAN
 routeMatric=30                    #PATH MATRIC
 serverUser='sadmin'               #USER_NAME to use for Connecting
 listainPort=1081                  #PORT_LISTAINING Port to Listain on for Proxyed Connections
-'
+```
 ##
