@@ -27,6 +27,8 @@ Installing this proxy server is as simple as downloading it and running it on yo
   1. Install SSH Server
   2. IP commands 
   3. IP Tables
+  5. Wireless Interface
+  6. Ehternet Interface
 
 ## Configure 
 Before you can start using the server there are a few things that you need to configure before you run the MifiProxy Server. First you need to makde changes to the variables that are in the script to align it with your setup and network interfaces.
