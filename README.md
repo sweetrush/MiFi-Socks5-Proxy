@@ -69,3 +69,17 @@ This will be the port that the server will listain on. so you can change this to
 Thats about all that you need to configure to get the server going.
 
 ## RUNNING IT
+Running the server is basicly just sourcing the file _mifiproxy.sh_. In other words just run the script with the following. In the Path that you place the script with.
+
+1. Option One
+```bash
+PATH_OF_MIFI_PROXY> ./mifiproxy.sh
+```
+
+2. Option Two
+```bash
+PATH_OF_MIFI_PROXY> sh mifiproxy.sh
+```
+
+#Final Words
+Hope you enjoy this small script very useful at times. Drop me a message or email **suetena_coder<at>outlook.com** let me know what something to change or suggest to linkup and improve this small server.
