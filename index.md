@@ -1,7 +1,7 @@
 ## Welcome to MiFi Socks5 Proxy
 
 **@Author Suetena Loia AKA sweetrush**
-**@website [suetena.cytrontech.com](https://suetena.cytrontech.com)**
+**@website [suetena.cytrontech.com](http://suetena.cytrontech.com)**
 
 
 # MiFi-Socks5-Proxy
