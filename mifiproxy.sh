@@ -4,7 +4,7 @@
 # @Author : SuetenaCoder
 # @Website: suetena.cytrontech.com
 # @EMail  : suetena_coder@outlook.com 
-# @Version : 1.0.2
+# @Version : 1.0.2   -02182017
 
 mifiIPAdress='192.168.0.1'
 interface='wlp2s0'
