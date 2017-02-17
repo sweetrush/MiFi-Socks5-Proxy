@@ -6,20 +6,23 @@
 # @EMail  : suetena_coder@outlook.com 
 # @Version : 1.0.2   -02182017
 
-mifiIPAdress='192.168.0.1'
-interface='wlp2s0'
-interface_2='enp1s0'
+mifiIPAdress='192.168.0.1'    #Default Mifi Address
+interface='WIRELESS_INF_NAME'
+interface_2='ETHERNET_INF_NAME'
 routeMatric=30
-serverUser='sadmin'
+serverUser='LOGIN_NAME'
 listainPort=1082
 wifiAP_SID='SID_NAME'
 Passwd='SID_PASSWORD'
+
 ethnetIP=$(ip addr | grep inet | grep enp1s0 | awk -F" " '{print $2}' | sed -e 's/\/.*$//')
+
 echo "Connecting to AP SID : $wifiAP_SID  ..............."
 echo 'Connecting .......................................'
 echo 'other Wifi In the Air at this location ...........'
 sudo nmcli d wifi list
 sudo nmcli d wifi connect $wifiAP_SID password $Passwd iface $interface
+
 echo ' .. Initializing Network Values '
 echo ' .. Adding Default Mifi Route as Main Internet Route'
 sudo ip route add default via $mifiIPAdress dev $interface proto static metric $routeMatric
