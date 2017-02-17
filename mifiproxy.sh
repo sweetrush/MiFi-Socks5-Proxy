@@ -12,8 +12,8 @@ interface_2='enp1s0'
 routeMatric=30
 serverUser='sadmin'
 listainPort=1082
-wifiAP_SID='NetVoSamoa97F9'
-Passwd='30380547'
+wifiAP_SID='SID_NAME'
+Passwd='SID_PASSWORD'
 ethnetIP=$(ip addr | grep inet | grep enp1s0 | awk -F" " '{print $2}' | sed -e 's/\/.*$//')
 echo "Connecting to AP SID : $wifiAP_SID  ..............."
 echo 'Connecting .......................................'
