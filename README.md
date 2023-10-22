@@ -2,7 +2,7 @@
 **@Author Suetena Loia AKA sweetrush**
 **@website [suetena.sfll.ws](https://suetena.sfll.ws)**
 
-
+-
 # MiFi-Socks5-Proxy
 A proxy server to use with your MiFi Device with a Linux Computer as the Proxy server to handle the Internet Traffic for the LAN
 
