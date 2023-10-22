@@ -1,6 +1,6 @@
 
 **@Author Suetena Loia AKA sweetrush**
-**@website [suetena.cytrontech.com](https://suetena.cytrontech.com)**
+**@website [suetena.cytrontech.com](https://suetena.sfll.ws)**
 
 
 # MiFi-Socks5-Proxy
